@@ -6,12 +6,13 @@ public class DamkaBoard {
 		int n = Integer.parseInt(args[0]);
 		String line = "";
 		for (int i=1 ; i<=n ; i++) {
+			if (i % 2 == 0) {
+				line = " ";
+			} else {
+				line = "";
+			}
 			for (int j=1 ; j<=n ; j++) {
-				if (i % 2 == 0) {
-					line = line + " *";
-				} else {
-					line = line + "* ";
-				}
+				line = line + "* ";
 			}
 			System.out.println(line);
 		}
