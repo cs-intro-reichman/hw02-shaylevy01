@@ -11,7 +11,7 @@ public class Reverse {
 			reverse = reverse + str.charAt(i);
 		}
 		System.out.println(reverse);
-		char middle = reverse.charAt(length/2);
+		char middle = reverse.charAt(length / 2);
 		System.out.println("The middle character is " + middle);
 	}
 }

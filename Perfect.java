@@ -6,7 +6,7 @@ public class Perfect {
 		int N = Integer.parseInt(args[0]);
 		int sum = 0;
 		String eq = " = 1";
-		for (int d = 1 ; d<N ; d++) {
+		for (int d = 1 ; d < N ; d++) {
 			if (N % d == 0) {
 				sum = sum + d;
 				if (d != 1){

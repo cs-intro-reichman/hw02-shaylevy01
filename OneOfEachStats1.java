@@ -11,7 +11,7 @@ public class OneOfEachStats1 {
 		int count2 = 0;
 		int count3 = 0;
 		int count4 = 0;
-		for (int i=0; i<T ; i++) {
+		for (int i = 0; i < T ; i++) {
 			int num = 0;
 			double random;
 			boolean isGirl = false;
@@ -42,7 +42,7 @@ public class OneOfEachStats1 {
 			}
 			sum = sum + num;
 		}
-		double avg = sum/T;
+		double avg = sum / T;
 		System.out.println("Average: " + avg + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + count2);
 		System.out.println("Number of families with 3 children: " + count3);

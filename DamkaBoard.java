@@ -5,9 +5,9 @@ public class DamkaBoard {
 	public static void main(String[] args) {
 		int n = Integer.parseInt(args[0]);
 		String line = "";
-		for (int i=1 ; i<=n ; i++) {
+		for (int i = 1 ; i <= n ; i++) {
 			line = "";
-			for (int j=1 ; j<=n ; j++) {
+			for (int j = 1 ; j <= n ; j++) {
 				if (i % 2 == 0) {
 					line = line + " *";
 				} else {
