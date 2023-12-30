@@ -6,6 +6,7 @@ public class DamkaBoard {
 		int n = Integer.parseInt(args[0]);
 		String line = "";
 		for (int i=1 ; i<=n ; i++) {
+			line = "";
 			//if (i % 2 == 0) {
 			//	line = " ";
 			//} else {
