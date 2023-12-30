@@ -7,11 +7,6 @@ public class DamkaBoard {
 		String line = "";
 		for (int i=1 ; i<=n ; i++) {
 			line = "";
-			//if (i % 2 == 0) {
-			//	line = " ";
-			//} else {
-			//	line = "";
-			//}
 			for (int j=1 ; j<=n ; j++) {
 				if (i % 2 == 0) {
 					line = line + " *";
